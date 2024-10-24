@@ -1,0 +1,280 @@
+.left{
+    float: left;
+    width: 30%;
+    height: 710px; 
+    background: #ccc;
+    padding: 20px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+}
+.right{
+    float: left;
+    padding: 20px;
+    width: 60%;
+    background-color: #f1f1f1;
+    height: 710px; 
+    background: #8b8989;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+
+}
+
+.cardLeft{
+    height: 710px;
+    /* border: 2px solid red; */
+    border-radius: 50px;
+}
+.cardRight{
+height: 710px;
+border-radius: 100px;
+}
+
+.cardLeftBetween{
+    height: 400px;
+    border: 2px solid red;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #e41515;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+.flex-container {
+    display: flex;
+    align-items: center; /* Align image and first text on the same line */
+    margin-left: 100px;
+}
+.text-container {
+    display: flex;
+    flex-direction: column; /* First text and second text stack vertically */
+}
+.img {
+    margin-right: 10px; /* Space between image and text */
+}
+.menuButton{
+    height: 150px;
+    background: red;
+    border-radius: 20px;
+    margin-left: 250px;
+}
+
+.details{
+    height: 540px;
+    background: goldenrod;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.button{ 
+    background-color: #c1cac7; /* Green */
+    border: none;
+    color: rgb(226, 2, 2);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.phoneDiv{
+    height: 160px;
+    width: 330px;
+    background: lightgreen;
+    float: left;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.emailDiv{
+    height: 160px;
+    width: 330px;
+    background: lightslategray;
+    float: right;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.flex-container-contact {
+    display: flex;
+    margin-left: 100px;
+}
+.text-container-contact {
+    display: flex;
+    flex-direction: column; 
+    text-align: left;
+}
+.img-contact {
+    margin-right: 10px;
+    text-align: left;
+}
+
+.flex-container-email {
+    display: flex;
+    margin-left: 100px;
+}
+.text-container-email {
+    display: flex;
+    flex-direction: column; 
+    text-align: left;
+}
+.img-email {
+    margin-right: 10px;
+    text-align: left;
+}
+
+.contact-info{
+    width: 800px;
+    height: 210px;
+    background-color: aqua;
+    margin-top: 230px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+
+.home1{
+    height: 120px;
+    width: 330px;
+    background: lightgreen;
+    float: left;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.home2{
+    height: 120px;
+    width: 330px;
+    background: lightslategray;
+    float: right;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+
+.home3{
+    height: 120px;
+    width: 330px;
+    background: lightgreen;
+    float: left;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.home4{
+    height: 120px;
+    width: 330px;
+    background: lightslategray;
+    float: right;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.flex-container1 {
+    display: flex;
+    margin-left: 100px;
+}
+.text-container1 {
+    display: flex;
+    flex-direction: column; 
+    text-align: left;
+}
+.img1{
+    margin-right: 10px;
+    text-align: left;
+}
+
+.flex-container2 {
+    display: flex;
+    margin-left: 100px;
+}
+.text-container2 {
+    display: flex;
+    flex-direction: column; 
+    text-align: left;
+}
+.img2 {
+    margin-right: 10px;
+    text-align: left;
+}
+
+
+.flex-container3 {
+    display: flex;
+    margin-left: 100px;
+}
+.text-container3 {
+    display: flex;
+    flex-direction: column; 
+    text-align: left;
+}
+.img3 {
+    margin-right: 10px;
+    text-align: left;
+}
+
+
+.flex-container4 {
+    display: flex;
+    margin-left: 100px;
+}
+.text-container4 {
+    display: flex;
+    flex-direction: column; 
+    text-align: left;
+}
+.img4 {
+    margin-right: 10px;
+    text-align: left;
+}
+
+
+.education{
+    float: left;
+   
+}
+
+.experience{
+
+    float: right;
+    margin-right: 100px;
+
+}
+
+.flex-container-edu {
+    display: flex;
+    margin-left: 100px;
+}
+.text-container-edu{
+    display: flex;
+    flex-direction: column; 
+    text-align: left;
+}
+.img-edu {
+    margin-right: 10px;
+    text-align: left;
+}
+
+
+.flex-container-exp {
+    display: flex;
+    margin-left: 100px;
+}
+.text-container-exp {
+    display: flex;
+    flex-direction: column; 
+    text-align: left;
+}
+.img-exp {
+    margin-right: 10px;
+    text-align: left;
+}
